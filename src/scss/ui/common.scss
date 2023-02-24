@@ -1,0 +1,76 @@
+%secondFont {
+   font-family: 'Exo 2';
+   font-weight: 700;
+}
+
+//Typography========================================================================================================================================================
+.h1 {
+   @extend %secondFont;
+   font-size: 83px;
+   line-height: 115%;
+   text-transform: uppercase;
+}
+.h2 {
+   @extend %secondFont;
+   font-size: 72px;
+   text-transform: uppercase;
+   text-align: center;
+   @media (max-width: 767.98px) {
+      font-size: 38px;
+   }
+}
+
+.h3 {
+   @extend %secondFont;
+   font-size: 48px;
+   @media (max-width: 767.98px) {
+      font-size: 28px;
+   }
+}
+
+.h4 {
+   font-weight: 600;
+   font-size: 26px;
+   @media (max-width: 767.98px) {
+      font-size: 20px;
+   }
+}
+
+.h5 {
+   font-weight: 400;
+   font-size: 24px;
+}
+//Buttons========================================================================================================================================================
+%btnCommon {
+   border-radius: 10px;
+   max-width: 200px;
+   width: 100%;
+   color: var(--white);
+   padding: 18px 10px;
+   text-align: center;
+   @media (max-width: 767.98px) {
+      font-size: 16px;
+      padding: 16px 10px;
+   }
+}
+//+++++++++++++++++++++++++++++
+.btn-red {
+   @extend %btnCommon;
+   background-color: var(--red);
+   box-shadow: 0 0 5px var(--red);
+}
+.btn-blue {
+   @extend %btnCommon;
+   background-color: var(--blue);
+   box-shadow: 0 0 5px var(--blue);
+}
+.btn-purple {
+   @extend %btnCommon;
+   background-color: var(--purple);
+   box-shadow: 0 0 5px var(--purple);
+}
+.btn-pink {
+   @extend %btnCommon;
+   background-color: var(--pink);
+   box-shadow: 0 0 5px var(--pink);
+}

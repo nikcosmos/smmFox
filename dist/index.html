@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>SMMFOX</title>
+	<meta charset="UTF-8" />
+	<meta name="format-detection" content="telephone=no" />
+	<link rel="stylesheet" href="css/style.min.css?_v=20230224224326" />
+	<script src="./files/locales/ru.js?_v=20230224224326" defer></script>
+	<script src="./files/locales/ua.js?_v=20230224224326" defer></script>
+	<script src="js/app.min.js?_v=20230224224326" defer></script>
+	<!-- <link rel="shortcut icon" href="favicon.ico"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no " />
+</head>
+
+
+<body>
+	<div class="wrapper">
+		<header class="header">
+			<div class="header__container-m">
+				<div class="header__content">
+					<div class="header__body">
+						<a href="https://smmfox.ua/" class="header__logo header__logo_pc"><img src="img/logo-black.svg" alt="logo" /></a>
+						<nav class="header__menu">
+							<ul class="header__menu-list">
+								<li data-lg="header.nav1" data-goto=".home" class="header__menu-item">Главная</li>
+								<li data-lg="header.nav2" data-goto=".services" class="header__menu-item">Услуги</li>
+								<li data-lg="header.nav3" data-goto=".benefits" class="header__menu-item">Преимущества</li>
+							</ul>
+						</nav>
+						<a class="header__phone" href="tel:+380937771331">+38 (093) 777 13 31</a>
+						<div class="header__languages">
+							<button value="ru" data-language="ru" type="button" class="header__lang-item">RU</button>
+							<button value="ua" data-language="ua" type="button" class="header__lang-item">UA</button>
+						</div>
+						<div class="header__social">
+							<a target="_blank" href="viber://chat?number=+380937771331" class="header__social-item">
+								<img src="img/viber-white.svg" alt="viber" />
+							</a>
+							<a target="_blank" href="whatsapp://send?phone=+380937771331" class="header__social-item">
+								<img src="img/whatsapp-white.svg" alt="whatsapp" />
+							</a>
+							<a target="_blank" href="https://www.facebook.com/smmfox.ua" class="header__social-item">
+								<img src="img/facebook-white.svg" alt="facebook" />
+							</a>
+							<a target="_blank" href="https://www.instagram.com/smmfox.ua" class="header__social-item">
+								<img src="img/instagram-white.svg" alt="instagram" />
+							</a>
+							<a target="_blank" href="https://t.me/smmfoxua" class="header__social-item">
+								<img src="img/telegram-white.svg" alt="telegram" />
+							</a>
+						</div>
+					</div>
+					<a href="https://smmfox.ua/" class="header__logo header__logo_mob header__logo_mob-black"><img src="img/logo-black.svg" alt="logo" /></a>
+					<a href="https://smmfox.ua/" class="header__logo header__logo_mob header__logo_mob-white"><img src="img/logo-white.svg" alt="logo" /></a>
+					<button type="button" class="header__burger icon-menu"><span></span></button>
+				</div>
+			</div>
+		</header>
+
+		<main class="main">
+			<section class="main__home home">
+				<div class="home__container-m">
+					<div class="home__content">
+						<div class="home__info">
+							<p data-lg="home.title1" class="home__title h1">Продвижение вашего аккаунта</p>
+							<p data-lg="home.title2" class="home__title home__title_blue h1">в соцсетях</p>
+						</div>
+						<div class="home__images">
+							<picture><source srcset="img/title-bg-pc.webp" type="image/webp"><img class="home__img home__img_pc" src="img/title-bg-pc.png" alt="background" /></picture>
+							<picture><source srcset="img/title-bg-mob.webp" type="image/webp"><img class="home__img home__img_mob" src="img/title-bg-mob.png" alt="background" /></picture>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__platforms platforms">
+				<div class="platforms__container-m">
+					<div class="platforms__content">
+						<div class="platforms__list">
+							<button data-goto="#youtube" type="button" class="platforms__item h5">
+								<svg class="platforms__img">
+									<use xlink:href="img/icons/icons.svg#svg-youtube"></use>
+								</svg>
+								<span>YouTube</span>
+							</button>
+							<button data-goto="#telegram" type="button" class="platforms__item h5">
+								<svg class="platforms__img">
+									<use xlink:href="img/icons/icons.svg#svg-telegram"></use>
+								</svg>
+								<span>Telegram</span>
+							</button>
+							<button data-goto="#instagram" type="button" class="platforms__item h5">
+								<img class="platforms__img" src="img/instagram.svg" alt="instagram" />
+								<span>Instagram</span>
+							</button>
+							<button data-goto="#facebook" type="button" class="platforms__item h5">
+								<svg class="platforms__img">
+									<use xlink:href="img/icons/icons.svg#svg-facebook"></use>
+								</svg>
+								<span>Facebook</span>
+							</button>
+							<button data-goto="#tiktok" type="button" class="platforms__item h5">
+								<svg class="platforms__img">
+									<use xlink:href="img/icons/icons.svg#svg-tiktok"></use>
+								</svg>
+								<span>TikTok</span>
+							</button>
+							<button data-goto="#twitter" type="button" class="platforms__item h5">
+								<svg class="platforms__img">
+									<use xlink:href="img/icons/icons.svg#svg-twitter"></use>
+								</svg>
+								<span>Twitter</span>
+							</button>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__services services">
+				<div class="services__container-l">
+					<div class="services__content">
+						<p data-lg="services.title" class="services__title h2">Услуги</p>
+						<div id="youtube" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">YouTube</p>
+								<p data-lg="services.descr1" class="service-block__description">
+									Продолжайте снимать увлекательные видео, делайте их профессиональную обработку, а продвижение своего канала
+									оставьте нам.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%BE%D0%B2_%D1%8E%D1%82%D1%83%D0%B1" class="service-block__link btn-red">Подробнее
+								</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/youtube.webp" type="image/webp"><img src="img/services/youtube.png" alt="youtube" /></picture></div>
+						</div>
+						<div id="telegram" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">Telegram</p>
+								<p data-lg="services.descr2" class="service-block__description">
+									У Вас есть свой канал в Telegram, и Вы хотите его сделать ещё более популярным? Тогда Вы понимаете, что первый
+									шаг в этом направлении — продвижение.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%BE%D0%B2_%D1%82%D0%B5%D0%BB%D0%B5%D0%B3%D1%80%D0%B0%D0%BC" class="service-block__link btn-blue">Подробнее
+								</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/telegram.webp" type="image/webp"><img src="img/services/telegram.png" alt="telegram" /></picture></div>
+						</div>
+						<div id="instagram" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">Instagram</p>
+								<p data-lg="services.descr3" class="service-block__description">
+									Мы проведём нужные настройки, поможем Вам найти свою целевую аудиторию, избавим от проходящих мимо зевак и
+									бесполезных лайков.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/" class="service-block__link btn-purple">Подробнее</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/instagram.webp" type="image/webp"><img src="img/services/instagram.png" alt="instagram" /></picture></div>
+						</div>
+						<div id="facebook" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">Facebook</p>
+								<p data-lg="services.descr4" class="service-block__description">
+									Мы поможем Вам быстро собрать большое количество лайков прямо после публикации. Это даст сигнал соцсети, что
+									Ваш пост интересен аудитории.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C_%D0%BB%D0%B0%D0%B9%D0%BA%D0%B8_%D1%84%D0%B5%D0%B9%D1%81%D0%B1%D1%83%D0%BA" class="service-block__link btn-blue">Подробнее
+								</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/facebook.webp" type="image/webp"><img src="img/services/facebook.png" alt="facebook" /></picture></div>
+						</div>
+						<div id="tiktok" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">TikTok</p>
+								<p data-lg="services.descr5" class="service-block__description">
+									Оставьте ссылку на ролик, мы быстро сделаем его популярным в сети TikTok, формируя лайки реальных европейских
+									пользователей.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C_%D0%BB%D0%B0%D0%B9%D0%BA%D0%B8_%D1%82%D0%B8%D0%BA%D1%82%D0%BE%D0%BA" class="service-block__link btn-pink">Подробнее
+								</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/tiktok.webp" type="image/webp"><img src="img/services/tiktok.png" alt="tiktok" /></picture></div>
+						</div>
+						<div id="twitter" class="services__block service-block">
+							<div class="service-block__info">
+								<p class="service-block__title h3">Twitter</p>
+								<p data-lg="services.descr6" class="service-block__description">
+									Twitter — уникальная сеть, которая живёт по своим правилам. Поэтому для эффективного продвижения в этой сети
+									микроблогов важно понять определённую специфику.
+								</p>
+								<a data-lg="services.btn" href="https://smmfox.ua/%D0%BA%D1%83%D0%BF%D0%B8%D1%82%D1%8C_%D0%BF%D0%BE%D0%B4%D0%BF%D0%B8%D1%81%D1%87%D0%B8%D0%BA%D0%BE%D0%B2_%D1%82%D0%B2%D0%B8%D1%82%D1%82%D0%B5%D1%80" class="service-block__link btn-blue">Подробнее
+								</a>
+							</div>
+							<div class="service-block__image"><picture><source srcset="img/services/twitter.webp" type="image/webp"><img src="img/services/twitter.png" alt="twitter" /></picture></div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<section class="main__benefits benefits">
+				<div class="benefits__container-m">
+					<div class="benefits__content">
+						<p data-lg="benefits.title" class="benefits__title h2">Преимущества</p>
+						<div class="benefits__list">
+							<div class="benefits__item">
+								<div class="benefits__item-img"><picture><source srcset="img/benefits/1.webp" type="image/webp"><img src="img/benefits/1.png" alt="price" /></picture></div>
+								<p data-lg="benefits.itemTitle1" class="benefits__item-title h4">Качество и цена 24/7</p>
+								<p data-lg="benefits.itemDescr1" class="benefits__item-descr">
+									Будьте уверены, у нас самые лучшие цены на самые качественные услуги
+								</p>
+							</div>
+							<div class="benefits__item">
+								<div class="benefits__item-img"><picture><source srcset="img/benefits/2.webp" type="image/webp"><img src="img/benefits/2.png" alt="reliability" /></picture></div>
+								<p data-lg="benefits.itemTitle2" class="benefits__item-title h4">Надежность</p>
+								<p data-lg="benefits.itemDescr2" class="benefits__item-descr">
+									Полная автоматизация запуска и выполнения всех услуг на максимальной скорости
+								</p>
+							</div>
+							<div class="benefits__item">
+								<div class="benefits__item-img"><picture><source srcset="img/benefits/3.webp" type="image/webp"><img src="img/benefits/3.png" alt="experience" /></picture></div>
+								<p data-lg="benefits.itemTitle3" class="benefits__item-title h4">Опыт работы</p>
+								<p data-lg="benefits.itemDescr3" class="benefits__item-descr">
+									Мы качаем соцсети уже более 3 лет и выполнили около 200 тысяч заказов
+								</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+		<footer class="footer">
+			<div class="footer__container-m">
+				<div class="footer__content">
+					<div class="footer__info-col info-col">
+						<a href="https://smmfox.ua/" class="info-col__logo"><img src="img/logo-black.svg" alt="logo" /></a>
+						<p data-lg="footer.address" class="info-col__text">г. Киев, ул. Крещатик, 13</p>
+						<p class="info-col__text">© 2007-2023</p>
+					</div>
+					<div class="footer__payments-col payments">
+						<div class="payments__list">
+							<div class="payments__item">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-apple-pay"></use>
+								</svg>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-apple-pay-w"></use>
+								</svg>
+							</div>
+							<div class="payments__item">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-google-pay"></use>
+								</svg>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-google-pay-w"></use>
+								</svg>
+							</div>
+							<div class="payments__item">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-mastercard"></use>
+								</svg>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-mastercard-w"></use>
+								</svg>
+							</div>
+							<div class="payments__item">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-visa"></use>
+								</svg>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-visa-w"></use>
+								</svg>
+							</div>
+							<div class="payments__item">
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-pb-24"></use>
+								</svg>
+								<svg>
+									<use xlink:href="img/icons/icons.svg#svg-pb-24-w"></use>
+								</svg>
+							</div>
+						</div>
+					</div>
+					<div class="footer__contacts footer-contacts">
+						<div class="footer-contacts__content">
+							<div class="footer-contacts__social-list">
+								<a href="viber://chat?number=+380937771331" class="footer-contacts__social-item">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-viber"></use>
+									</svg>
+								</a>
+								<a href="whatsapp://send?phone=+380937771331" class="footer-contacts__social-item">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-whatsapp"></use>
+									</svg>
+								</a>
+								<a href="https://www.facebook.com/smmfox.ua" class="footer-contacts__social-item">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-facebook"></use>
+									</svg>
+								</a>
+								<a href="https://www.instagram.com/smmfox.ua" class="footer-contacts__social-item">
+									<img src="img/instagram.svg" alt="instagram" />
+								</a>
+								<a href="https://t.me/smmfoxua" class="footer-contacts__social-item">
+									<svg>
+										<use xlink:href="img/icons/icons.svg#svg-telegram"></use>
+									</svg>
+								</a>
+							</div>
+							<a class="footer-contacts__phone" href="tel:+380937771331">+38 (093) 777 13 31</a>
+							<a class="footer-contacts__email" href="mailto:info@smmfox.ua">info@smmfox.ua</a>
+						</div>
+					</div>
+					<button data-goto=".header" type="button" class="footer__return-btn">
+						<svg>
+							<use xlink:href="img/icons/icons.svg#svg-arrow"></use>
+						</svg>
+					</button>
+				</div>
+			</div>
+		</footer>
+
+	</div>
+</body>
+
+</html>
